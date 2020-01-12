@@ -1,0 +1,127 @@
+body.oilrig {padding-top: 100px; background-image: url("../pics/Oil Rig Fire.jpg");
+    background-repeat: no-repeat; background-size: 100%;}
+
+body.nuclear {padding-top: 100px; background-image: url("../pics/Nuclear Explosion.jpg");
+    background-repeat: no-repeat; background-size: 108%}
+
+body.tornado {padding-top: 100px; background-image: url("../pics/Tornado.jpg");
+    background-repeat: no-repeat; background-size: 100%}
+
+body.volcano {padding-top: 100px; background-image: url("../pics/Volcano.jpg");
+    background-repeat: no-repeat; background-size: 100%}
+
+body.hurricane {padding-top: 100px; background-image: url("../pics/Hurricane1.jpg");
+    background-repeat: no-repeat; background-size: 100%}
+
+body.meteor {padding-top: 100px; background-image: url("../pics/Meteor Strike.jpg");
+    background-repeat: no-repeat; background-size: 100%}
+
+body.forestfire {padding-top: 100px; background-image: url("../pics/Forest Fire.jpg");
+    background-repeat: no-repeat; background-size: 250%}
+
+body.drought {padding-top: 100px; background-image: url("../pics/Drought.jpg");
+    background-repeat: no-repeat; background-size: 100%}
+
+body.home {padding-top: 100px; background-image: url("../pics/Teamwork.jpg");
+    background-repeat: no-repeat; background-size: 113%}
+
+#oilheading {width: 33%; text-align: center; background-color: #9cbab7}
+
+#oilheading1 {width: 33%; text-align: center; background-color: #9cbab7;
+    padding-left: 5px}
+
+#oilcolumn {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#oilcolumn1 {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#nuclearheading {width: 33%; text-align: center; background-color: #9cbab7}
+
+#nuclearheading1 {width: 33%; text-align: center; background-color: #9cbab7;
+    padding-left: 5px}
+
+#nuclearcolumn {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#nuclearcolumn1 {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#tornadoheading {width: 33%; text-align: center; background-color: #9cbab7}
+
+#tornadoheading1 {width: 33%; text-align: center; background-color: #9cbab7;
+    padding-left: 5px}
+
+#tornadocolumn {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#tornadocolumn1 {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#volcanoheading {width: 33%; text-align: center; background-color: #9cbab7}
+
+#volcanoheading1 {width: 33%; text-align: center; background-color: #9cbab7;
+    padding-left: 5px}
+
+#volcanocolumn {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#volcanocolumn1 {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#hurricaneheading {width: 33%; text-align: center; background-color: #9cbab7}
+
+#hurricaneheading1 {width: 33%; text-align: center; background-color: #9cbab7;
+    padding-left: 5px}
+
+#hurricanecolumn {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#hurricanecolumn1 {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#meteorheading {width: 33%; text-align: center; background-color: #9cbab7}
+
+#meteorheading1 {width: 33%; text-align: center; background-color: #9cbab7;
+    padding-left: 5px}
+
+#meteorcolumn {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#meteorcolumn1 {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#droughtheading {width: 33%; text-align: center; background-color: #9cbab7}
+
+#droughtheading1 {width: 33%; text-align: center; background-color: #9cbab7;
+    padding-left: 5px}
+
+#droughtcolumn {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#droughtcolumn1 {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#ffireheading {width: 33%; text-align: center; background-color: #9cbab7}
+
+#ffireheading1 {width: 33%; text-align: center; background-color: #9cbab7;
+    padding-left: 5px}
+
+#ffirecolumn {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+#ffirecolumn1 {width: 33%; background-color: white; padding: 5px;
+    border-style: solid; border-width: 1px}
+
+.column {float: left; width: 25%; text-align: center}
+
+#oilthumb, #tornadothumb, #volcanothumb,
+#hurricanethumb, #meteorthumb, #firethumb, #droughtthumb {padding: 15px}
+
+.row::after {content: ""; clear: both; display: table}
+
+#heading {color: white; font-family: "Apple Braille"; font-size: 50px}
+
+#images {height: 90px}
+
+div.jumbotron.jumbotron-fluid {opacity: 0.8}

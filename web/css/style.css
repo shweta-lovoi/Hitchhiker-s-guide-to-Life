@@ -1,0 +1,15 @@
+body {
+  padding-top: 100px;
+  background-repeat: no-repeat; background-size: 113%;
+}
+
+.column {float: left; width: 25%; padding: 15px;}
+.row::after {content: ""; clear: both; display: table;}
+h3 {color: black; text-align: center}
+
+#heading  {color: white; font-family: "Apple Braille"; text-align: center; font-size: 60px}
+#nuclear, #tornado, #volcano, #hurricane, #meteor {height: 190px}
+
+.scrolly{
+    height: 400px;
+}

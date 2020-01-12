@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>ResourcesController</servlet-name>
+        <servlet-class>fin.resources.ResourcesController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>IndexController</servlet-name>
+        <servlet-class>fin.index.IndexController</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>RegisterController</servlet-name>
+        <servlet-class>fin.register.RegisterController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterController</servlet-name>
+        <url-pattern>/fin/register/RegisterController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>fin.login.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/fin/login/LoginController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LogoutController</servlet-name>
+        <servlet-class>fin.logout.LogoutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutController</servlet-name>
+        <url-pattern>/fin/logout/LogoutController</url-pattern>
+    </servlet-mapping>
+    
+    <listener>
+        <listener-class>shared.WebappListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>PersistentController</servlet-name>
+        <servlet-class>fin.persistentData.Controller</servlet-class>
+        <init-param>
+            <param-name>create</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PersistentController</servlet-name>
+        <url-pattern>/fin/persistentData/Controller</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ResourcesController</servlet-name>
+        <url-pattern>/ResourcesController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IndexController</servlet-name>
+        <url-pattern>/IndexController</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>
